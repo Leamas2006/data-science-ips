@@ -1,4 +1,4 @@
-name: dsips_py310
+name: aieng_py310
 channels:
   - conda-forge
 dependencies:
@@ -15,6 +15,12 @@ dependencies:
   - numpy
   - pandas
   - scikit-learn
+  - scipy
   - pip:
     - python-dotenv
+    - openai
+    - ollama
+    - pydantic
+    - instructor
+    - tensorflow
     - -e .
